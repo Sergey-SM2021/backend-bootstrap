@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/app.js",
     "prepare": "husky install",
-    "lint": "eslint src/*"
+    "lint": "eslint src/*",
+    "lint-fix": "eslint src/* --fix"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
